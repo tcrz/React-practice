@@ -1,0 +1,1 @@
+[custom hook](./src/hooks/useFetch.js) created to prevent duplication of fetch functions in various components.
