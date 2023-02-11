@@ -1,10 +1,9 @@
-import { useCallback } from 'react';
 import useFetch from '../../hooks/useFetch';
 import Section from '../UI/Section';
 import TaskForm from './TaskForm';
 
 const NewTask = (props) => {
-  
+
   const processNewTaskData = (data, body) => {
     console.log(data)
     const generatedId = data.name; 
